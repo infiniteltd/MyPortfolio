@@ -57,6 +57,7 @@ const Resume = (props) => {
         { skill: "Node JS", ratingPercentage: 75 },
         { skill: "Mongo DB", ratingPercentage: 65 },
         { skill: "Core Java", ratingPercentage: 60 },
+        { skill: "Git/Git Bash", ratingPercentage: 80 },
         { skill: "HTML", ratingPercentage: 85 },
         { skill: "CSS", ratingPercentage: 85 },
     ];
