@@ -50,16 +50,15 @@ const Resume = (props) => {
     ];
 
     const programmingSkillsDetails = [
-        { skill: "JavaScript", ratingPercentage: 80 },
-        { skill: "React JS", ratingPercentage: 80 },
+        { skill: "JavaScript", ratingPercentage: 85 },
+        { skill: "React JS", ratingPercentage: 85 },
         { skill: "React Native", ratingPercentage: 80 },
-        { skill: "Express JS", ratingPercentage: 60 },
         { skill: "Node JS", ratingPercentage: 75 },
-        { skill: "Mongo DB", ratingPercentage: 65 },
-        { skill: "Core Java", ratingPercentage: 60 },
-        { skill: "Git/Git Bash", ratingPercentage: 80 },
-        { skill: "HTML", ratingPercentage: 85 },
-        { skill: "CSS", ratingPercentage: 85 },
+        { skill: "MySQL", ratingPercentage: 75 },
+        { skill: "Python", ratingPercentage: 75 },
+        { skill: "Git/Git Bash", ratingPercentage: 85 },
+        { skill: "HTML", ratingPercentage: 90 },
+        { skill: "CSS", ratingPercentage: 90 },
     ];
 
 
@@ -78,14 +77,6 @@ const Resume = (props) => {
                 "An E-commerce web application for practice in skill development. It's accessible on my github page.",
             subHeading: "Tech Stack Used: HTML,CSS,JavaScript,Bootstrap",
         },
-        {
-            title: "Ride Hailing App (EXALT-RIDE)",
-            duration: { fromDate: "Dec2022", toDate: "May2023" },
-            description:
-                "A Ride hailing mobile application that is functional presently on google playstore and apple store.",
-            subHeading:
-                "Tech Stack Used: React JS, Bootstrap, React Native",
-        },
     ];
 
 
@@ -94,16 +85,10 @@ const Resume = (props) => {
             <ResumeHeading
                 heading={"National Open University of Nigeria (NOUN)"}
                 subHeading={"BACHELOR OF SCIENCE COMPUTER SCIENCE"}
-                fromDate={"2016"}
-                toDate={"2020"}
+                fromDate={"2022"}
+                toDate={"PRESENT"}
             />
 
-            <ResumeHeading
-                heading={"National Youth Service Corps"}
-                subHeading={"VOLUME CHOICE INTERNATIONAL LTD."}
-                fromDate={"2021"}
-                toDate={"2022"}
-            />
             <ResumeHeading
                 heading={"High School"}
                 subHeading={"His Grace High School Enugu"}
@@ -116,16 +101,12 @@ const Resume = (props) => {
         <div className='resume-screen-container' key="work-experience">
             <div className='experience-container'>
                 <ResumeHeading
-                    heading={"Exalt-Ride"}
-                    subHeading={"Lead Product Developer"}
-                    fromDate={"2023"}
+                    heading={"Freelancing"}
+                    subHeading={"Frontend Developer"}
+                    fromDate={"Sept 2023"}
                     toDate={"Present"}
                 />
-                <div className='experience-description'>
-                    <span className='resume-description-text'>
-                        Currently working as the chief product developer and co-functioning as the product manager.
-                    </span>
-                </div>
+
                 <div className='experience-description'>
                     <span className='resume-description-text'>
                         - Developed an e-commerce webiste for client with the dashboard

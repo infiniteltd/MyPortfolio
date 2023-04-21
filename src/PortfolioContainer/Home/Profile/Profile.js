@@ -20,7 +20,7 @@ export default function Profile() {
                       <a href='https://www.instagram.com/mekainoltd/'>
                         <i className='fa fa-instagram'></i>
                       </a>
-                      <a href='https://studio.youtube.com/channel/UC7V9PH1vEBkhCrbqCNwdFyQ'>
+                      <a href='https://www.youtube.com/channel/UC7V9PH1vEBkhCrbqCNwdFyQ'>
                         <i className='fa fa-youtube-square'></i>
                       </a>
                       <a href='https://twitter.com/ChrisPurposec60' >
@@ -34,7 +34,7 @@ export default function Profile() {
                 <div className='profile-details-name'>
                     <span className='primary-text'>
                         {" "}
-                        Hi, I'M <span className='highlighted-text'>Christian Nnaemeka</span>
+                        Hi, I'M <span className='highlighted-text'>Christian Ogbodo</span>
                     </span>
                 </div>
                 <div className='profile-details-role'>
@@ -45,7 +45,7 @@ export default function Profile() {
                             <Typical
                             loop={Infinity}
                             steps={[
-                                "Eloquent Dev Dude", 
+                                "Enthusiastic Developer", 
                                 2000,
                                 "FrontEnd Developer", 
                                 2000,
@@ -61,7 +61,7 @@ export default function Profile() {
                             />
                         </h1>
                         <span className='profile-role-tagline'>
-                            Knack of building applications with front and back end operations.
+                            Knack of building applications with front and back end tech stacks.
                         </span>
                     </span>
                 </div>
@@ -71,7 +71,7 @@ export default function Profile() {
                     >
                         Hire Me
                     </button>
-                    <a href='emekascv.pdf' download='ChrisEmeka emekascv.pdf'>
+                    <a href='Chrisogbodo.pdf' download='ChrisEmeka Chrisogbodo.pdf'>
                         <button className='btn highlighted-btn'>Get Resume</button>
                     </a>
                 </div>
