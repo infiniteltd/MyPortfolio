@@ -5,6 +5,21 @@ import Animations from '../../Utilities/Animations';
 import './AboutMe.css';
 
 
+const SCREEN_CONSTANTS = {
+    description: "Frontend web and mobile developer with background knowledge of MERN stack with redux, along with a knack of building applications with utmost efficiency. Strong professional attitude, willing to be an asset to an organisation.",
+    highlights: {
+        bullets: [
+            "Frontend web and mobile development",
+            "Interactive Front End as per the design",
+            "React and React Native",
+            "Redux for State Management",
+            "Building REST API",
+            "Managing database",
+        ],
+        heading: "Here are a Few Highlights:",
+    },
+};
+
 
 export default function AboutMe(props) {
 
@@ -16,31 +31,6 @@ export default function AboutMe(props) {
     };
     const fadeInSubscription =
         ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-
-    const SCREEN_CONSTANTS = {
-        description: "Frontend web and mobile developer with background knowledge of MERN stack with redux, along with a knack of building applications with utmost efficiency. Strong professional attitude, willing to be an asset to an organisation.",
-        highlights: {
-            bullets: [
-                "Frontend web and mobile development",
-                "Interactive Front End as per the design",
-                "React and React Native",
-                "Redux for State Management",
-                "Building REST API",
-                "Managing database",
-            ],
-            heading: "Here are a Few Highlights:",
-        },
-    };
-    const renderHighlight = () => {
-        return (
-            SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
-                <div className='highlight' key={i}>
-                    <div className='highlight-blob'></div>
-                    <span>{value}</span>
-                </div>
-            ))
-        )
-    };
 
     return (
         <div
@@ -59,7 +49,12 @@ export default function AboutMe(props) {
                             <div className='highlight-heading'>
                                 <span>{SCREEN_CONSTANTS.highlights.heading}</span>
                             </div>
-                            {renderHighlight()}
+                            {SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
+                <div className='highlight' key={i}>
+                    <div className='highlight-blob'></div>
+                    <span>{value}</span>
+                </div>
+            ))}
                         </div>
                         <div className='about-me-options'>
                             <button className='btn primary-btn'
