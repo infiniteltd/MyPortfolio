@@ -8,7 +8,7 @@ import load1 from '../../../src/images/load2.gif';
 import ScreenHeading from '../../Utilities/ScreenHeading/ScreenHeading';
 import ScrollService from '../../Utilities/ScrollService';
 import Animations from '../../Utilities/Animations';
-import './ContactMe.css'
+import './ContactMe.css';
 
 export default function ContactMe(props) {
 
@@ -44,7 +44,7 @@ export default function ContactMe(props) {
                 email,
                 message,
             };
-            setBool(true)
+            setBool(true);
             const res = await axios.post(`/contact`, data);
             if (name.length === 0 || email.length === 0 || message.length === 0) {
                 setBanner(res.data.msg);
@@ -77,12 +77,12 @@ export default function ContactMe(props) {
                         <Typical
                             loop={Infinity}
                             steps={[
-                                "Get In Touch",
-                                1000,
-                                "Get Your Ideas alive by Simply connecting with Me!",
-                                1000,
-                                "Get Your Job done Seamlessly!",
-                                1000,
+                                "Get In Touch 📧",
+                                2000,
+                                "Get Your Ideas alive by Simply connecting with Me! 🤝",
+                                2000,
+                                "Get Your Job done Seamlessly! ☑️",
+                                2000,
                             ]}
                         />
                     </h2>{""}
@@ -138,14 +138,14 @@ export default function ContactMe(props) {
                                     <img src={load1} alt='image not responding' />
                                 </b>) : ("")}
                             </button>
-                        </div> 
+                        </div>
                     </form>
                 </div>
             </div>
             <div className='scroll-home'>
-                
+
             </div>
         </div>
-        
+
     );
 }
