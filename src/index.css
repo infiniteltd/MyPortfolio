@@ -57,6 +57,7 @@ body {
   font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fdff;
 }
 
 code {
@@ -71,6 +72,7 @@ code {
 
 body ::-webkit-scrollbar-thumb {
   background-color: hsla(0, 0%, 100%, 0.16);
+  opacity: -2;
 }
 
 ::-webkit-scrollbar-thumb {
