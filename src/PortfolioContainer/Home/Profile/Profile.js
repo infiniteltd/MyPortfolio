@@ -34,7 +34,7 @@ export default function Profile() {
           <div className='profile-details-name'>
             <span className='primary-text'>
               {" "}
-              Hi, I am <span className='highlighted-text'>Christian Ogbodo</span>
+              Hi, I am <span className='highlighted-text'>Chris Sampson</span>
             </span>
           </div>
           <div className='profile-details-role'>
@@ -71,7 +71,7 @@ export default function Profile() {
             >
               Hire Me
             </button>
-            <a href='chrisogbodo.pdf' download='ChrisEmeka chrisogbodo.pdf'>
+            <a href='chrissampson.pdf' download='ChrisEmeka chrissampson.pdf'>
               <button className='btn highlighted-btn'>Get Resume</button>
             </a>
           </div>

@@ -50,11 +50,11 @@ export default function AboutMe(props) {
                                 <span>{SCREEN_CONSTANTS.highlights.heading}</span>
                             </div>
                             {SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
-                <div className='highlight' key={i}>
-                    <div className='highlight-blob'></div>
-                    <span>{value}</span>
-                </div>
-            ))}
+                                <div className='highlight' key={i}>
+                                    <div className='highlight-blob'></div>
+                                    <span>{value}</span>
+                                </div>
+                            ))}
                         </div>
                         <div className='about-me-options'>
                             <button className='btn primary-btn'
@@ -62,7 +62,7 @@ export default function AboutMe(props) {
                             >
                                 Hire Me
                             </button>
-                            <a href='chrisogbodo.pdf' download='ChrisEmeka chrisogbodo.pdf'>
+                            <a href='chrissampson.pdf' download='ChrisSampson chrissampson.pdf'>
                                 <button className='btn highlighted-btn'>Get Resume</button>
                             </a>
                         </div>
